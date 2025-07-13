@@ -1,0 +1,9 @@
+# Binaries
+pt
+pt-*
+
+# Build output
+dist/
+
+# Log files
+*.log
