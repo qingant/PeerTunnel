@@ -55,7 +55,7 @@ func NewHost(ctx context.Context, relays string) (host.Host, error) {
 		libp2p.Transport(tcp.NewTCPTransport),
 		libp2p.EnableRelay(),
 		libp2p.EnableAutoNATv2(),
-		libp2p.EnableAutoRelay(),
+		libp2p.EnableRelayService(),
 		libp2p.Security(noise.ID, noise.New),
 		libp2p.Routing(func(h host.Host) (routing.PeerRouting, error) {
 			var err error
