@@ -15,8 +15,11 @@ import (
 )
 
 var defaultRelays = []string{
-	"/dns4/libp2p-relay.cloudflare-ipfs.com/tcp/443/wss/p2p/12D3KooWDpZXDw5BMbF9zKZ48DYoA9Y1SRMxvZ4ZYmEnQ2WkAkgh",
-	"/dns4/libp2p-relay1.ipfs.io/tcp/443/wss/p2p/12D3KooWH9P5VGUUNzH6oCN8HDJqSukTzP3U5sM4PK9Q5z3w9w67",
+	"/dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN",
+	"/dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa",
+	"/dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb",
+	"/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt",
+	"/ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ", // mars.i.ipfs.io
 }
 
 // NewHost creates a new libp2p host.
